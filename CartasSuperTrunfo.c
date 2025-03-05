@@ -1,22 +1,60 @@
 #include <stdio.h>
 
-// Desafio Super Trunfo - Países
-// Tema 1 - Cadastro das Cartas
-// Este código inicial serve como base para o desenvolvimento do sistema de cadastro de cartas de cidades.
-// Siga os comentários para implementar cada parte do desafio.
-//Teste larissa
-
+//variaveis 1 card
 int main() {
-    // Sugestão: Defina variáveis separadas para cada atributo da cidade.
-    // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
-    
-    // Cadastro das Cartas:
-    // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
-    // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, população, área, etc.
-    
-    // Exibição dos Dados das Cartas:
-    // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
-    // Exiba os valores inseridos para cada atributo da cidade, um por linha.
+
+char estado(Goias);
+char codigo(4);
+char nomecity(Goiania);
+int  pontotur, populaçao;
+float area, pib;
+
+
+
+//variaveis 2 card
+char estado(ceara);
+char codigo(7);
+char nomecity(fortaleza);
+int pontotur, populaçao;
+
+
+// cadastro 1 card 
+printf("** bem vindo ao jogo super trunfo dos estados!!***\n");
+printf("vamos digitar os dados da primeira carta? vamos la!!\n").
+printf("-----CARTA 1-----\n");
+printf("Digite uma letra de 'A' a 'H'\n");
+scanf("%c", &Goias);
+Printf("Digite um numero de 01 a 04: \n");
+scanf("%s", &codigo);
+printf("Goiania: \n");
+scanf("%s", &goiania);
+//fgets(goiania, 7, stdin);
+//scanf ("%7[^\n]", &goiania);
+printf("Agora o numero de habitantes da cidade:\n");
+scanf("%d", &populaçao);
+printf("Qual o tamanho da area da cidade?: \n");
+scanf("%d", &area );
+printf("Agora vamos digitar o numero de pontos turisticos: \n");
+scanf("%d" &turismo);
+
+// cadastro 2 card 
+printf("Bem vindo ao jogo super trunfo dos estados!!***\n");
+printf("Vamos digitar os dados da primeira carta? Bora la!!\n");
+printf("-----CARTA2----\n");
+printf("Digite uma letra de 'A' a 'H' \n");
+scanf("%c" &ceara);
+printf("Digite um numero de 01 a 07:\n");
+scanf("%d",&codigo);
+printf("fortaleza: \n");
+scanf("%s", &fortaleza);
+//fgets(fortaleza, 7, stdin);
+//scanf(%7[^\n] , fortaleza);
+printf("Agora o numero de habitantes da cidade:\n ");
+scanf("%d",&populaçao);
+printf("Qual o tamnho da area da cidade?: \n");
+scanf("%d", & area);
+printf("Agora vamos digitar os pontos turisticos:\n");
+scanf("%d", &turismo);
 
     return 0;
 }
